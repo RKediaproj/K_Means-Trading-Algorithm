@@ -161,6 +161,17 @@ for n_clusters in range(2, 10):
     print(n_clusters, round(silhouette_score(X, y), 2))
 
 
+# For n_clusters = 2 The average silhouette_score is: 0.85
+# For n_clusters = 3 The average silhouette_score is: 0.78
+# For n_clusters = 4 The average silhouette_score is: 0.71
+# For n_clusters = 5 The average silhouette_score is: 0.68
+# For n_clusters = 6 The average silhouette_score is: 0.65
+# For n_clusters = 7 The average silhouette_score is: 0.62
+# For n_clusters = 8 The average silhouette_score is: 0.62
+# For n_clusters = 9 The average silhouette_score is: 0.56
+
+
+
 # In[ ]:
 
 
